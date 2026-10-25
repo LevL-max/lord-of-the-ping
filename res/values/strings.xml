@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="key_service_description">Кнопка-шестерёнка на пульте открывает настройки в любом приложении. Служба получает только нажатия кнопок пульта и не видит содержимое экрана.</string>
+</resources>

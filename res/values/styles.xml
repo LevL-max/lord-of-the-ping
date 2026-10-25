@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Lotp" parent="@android:style/Theme.Material.NoActionBar.Fullscreen">
+        <item name="android:windowBackground">@color/lotp_bg</item>
+        <item name="android:colorBackground">@color/lotp_bg</item>
+        <item name="android:colorAccent">@color/lotp_gold</item>
+        <!-- Theme.Material enables swipe-to-dismiss, so the window counted as translucent: the app left
+             behind (Live TV's video, YouTube) stayed visible over or under the home screen. -->
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowSwipeToDismiss">false</item>
+        <item name="android:windowIsFloating">false</item>
+    </style>
+</resources>
