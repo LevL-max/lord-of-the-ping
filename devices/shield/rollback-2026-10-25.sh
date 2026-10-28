@@ -27,4 +27,6 @@ $ADB shell cmd package set-home-activity com.google.android.tvlauncher/.MainActi
 
 # Not reversible from here:
 # - Plex Media Server (com.plexapp.mediaserver.smb) was uninstalled at the user's request; reinstall from Google Play.
+# - Netflix (com.netflix.ninja) was uninstalled 2026-10-28 at the user's request (unused, kept a background
+#   service); reinstall from Google Play. Without it the remote's Netflix button has nothing to open.
 # - App caches were trimmed (about 4.7 GB); apps rebuild them as needed.
